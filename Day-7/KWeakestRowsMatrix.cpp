@@ -11,7 +11,7 @@ public:
         for(int i = 0; i < k; i++){
             ans[i] = pq.top()%100;
             pq.pop();
-        }
+        } 
         
         return ans;
     }
