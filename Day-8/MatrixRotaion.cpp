@@ -6,7 +6,7 @@ class Solution{
             {
                 int n=mat.size();
                 for(int i=0;i<n;i++)
-                    for(int j=0;j<n;j++)
+                    for(int j=i;j<n;j++)
                         swap(mat[i][j],mat[j][i]);
                 reverse(mat.begin(),mat.end());
                 if(mat==target)
